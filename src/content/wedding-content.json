@@ -28,7 +28,7 @@
   "story": {
     "howWeMet": {
       "title": "How We Met ",
-      "text": "We met as the babas, now were wedding babas"
+      "text": "We met as the babas, now were wedding babas. Join us..."
     },
     "proposal": {
       "title": "The Proposal",
@@ -46,7 +46,7 @@
     "deadline": "February 20th, 2026"
   },
   "attire": {
-    "dress_code": "Cocktail attire requested",
+    "dress_code": "Black tie requested",
     "note": "Please avoid wearing white or ivory"
   },
   "registry": {
