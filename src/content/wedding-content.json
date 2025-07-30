@@ -1,24 +1,7 @@
 {
   "couple": {
     "bride": "Eleisa",
-    "groom": "Dylan"
-  },
-  "hero": {
-    "title": "Dylan & Eleisa",
-    "subtitle": "We're getting married!",
-    "date": "March 20th, 2026",
-    "location": "St Dominic's Church, Camberwell"
-  },
-  "story": {
-    "howWeMet": {
-      "title": "How We Met",
-      "text": "Our love story began [insert how you met]. From that moment, we knew there was something special between us."
-    },
-    "proposal": {
-      "title": "The Proposal",
-      "text": "[Insert proposal story here]. It was the perfect moment that we'll treasure forever."
-    },
-    "image": "/images/couple-photo.jpg"
+    "groom": "Not Dylan"
   },
   "ceremony": {
     "date": "March 20th, 2026",
@@ -32,18 +15,6 @@
     "address": "Toorak, Victoria",
     "description": "Dinner, dancing, and celebration to follow!"
   },
-  "attire": {
-    "dress_code": "Cocktail attire requested",
-    "note": "Please avoid wearing white or ivory"
-  },
-  "registry": {
-    "message": "Your presence is the only present we need!",
-    "details": "If you'd like to give a gift, we're registered at:",
-    "info": "[Registry Information]"
-  },
-  "rsvp": {
-    "deadline": "February 20th, 2026"
-  },
   "gallery": {
     "images": [
       "/images/gallery-1.jpg",
@@ -53,5 +24,34 @@
       "/images/gallery-5.jpg",
       "/images/gallery-6.jpg"
     ]
+  },
+  "story": {
+    "howWeMet": {
+      "title": "How We Met",
+      "text": "Our love story began [insert how you met]. From that moment, we knew there was something special between us."
+    },
+    "proposal": {
+      "title": "The Proposal",
+      "text": "[Insert proposal story here]. It was the perfect moment that we'll treasure forever."
+    },
+    "image": "/images/couple-photo.jpg"
+  },
+  "hero": {
+    "title": "Dylan & Eleisa",
+    "subtitle": "We're getting married!",
+    "date": "March 20th, 2026",
+    "location": "St Dominic's Church, Camberwell"
+  },
+  "rsvp": {
+    "deadline": "February 20th, 2026"
+  },
+  "attire": {
+    "dress_code": "Cocktail attire requested",
+    "note": "Please avoid wearing white or ivory"
+  },
+  "registry": {
+    "message": "Your presence is the only present we need!",
+    "details": "If you'd like to give a gift, we're registered at:",
+    "info": "[Registry Information]"
   }
 }
