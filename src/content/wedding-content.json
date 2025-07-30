@@ -1,7 +1,7 @@
 {
   "couple": {
     "bride": "Eleisa",
-    "groom": "Not Dylan"
+    "groom": "Dylan"
   },
   "ceremony": {
     "date": "March 20th, 2026",
@@ -38,7 +38,7 @@
   },
   "hero": {
     "title": "Dylan & Eleisa",
-    "subtitle": "We're getting married!",
+    "subtitle": "We're getting married! Test",
     "date": "March 20th, 2026",
     "location": "St Dominic's Church, Camberwell"
   },
