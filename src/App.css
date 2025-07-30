@@ -184,16 +184,34 @@ section h2 {
 .couple-photo {
   width: 300px;
   height: 300px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   border-radius: 15px;
+  background: #f8f8f8;
 }
 
 .gallery-photo {
   width: 100%;
   height: 250px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
+  background: #f8f8f8;
+}
+
+/* Alternative: If you want cropped but centered photos, use these classes instead */
+.gallery-photo-cropped {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.couple-photo-cropped {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 15px;
 }
 
 /* Details Section */
