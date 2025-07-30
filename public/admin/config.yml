@@ -1,0 +1,96 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "wedding"
+    label: "Wedding Content"
+    files:
+      - name: "content"
+        label: "Wedding Information"
+        file: "src/content/wedding-content.json"
+        fields:
+          - label: "Couple"
+            name: "couple"
+            widget: "object"
+            fields:
+              - { label: "Bride", name: "bride", widget: "string" }
+              - { label: "Groom", name: "groom", widget: "string" }
+          
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Wedding Date", name: "date", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+          
+          - label: "Our Story"
+            name: "story"
+            widget: "object"
+            fields:
+              - label: "How We Met"
+                name: "howWeMet"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Story", name: "text", widget: "text" }
+              - label: "The Proposal"
+                name: "proposal"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Story", name: "text", widget: "text" }
+              - { label: "Couple Photo", name: "image", widget: "image", required: false }
+          
+          - label: "Ceremony Details"
+            name: "ceremony"
+            widget: "object"
+            fields:
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Time", name: "time", widget: "string" }
+              - { label: "Venue Name", name: "venue", widget: "string" }
+              - { label: "Address", name: "address", widget: "string" }
+          
+          - label: "Reception Details"
+            name: "reception"
+            widget: "object"
+            fields:
+              - { label: "Time", name: "time", widget: "string" }
+              - { label: "Venue Name", name: "venue", widget: "string" }
+              - { label: "Address", name: "address", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+          
+          - label: "Attire"
+            name: "attire"
+            widget: "object"
+            fields:
+              - { label: "Dress Code", name: "dress_code", widget: "string" }
+              - { label: "Note", name: "note", widget: "string" }
+          
+          - label: "Registry"
+            name: "registry"
+            widget: "object"
+            fields:
+              - { label: "Message", name: "message", widget: "string" }
+              - { label: "Details", name: "details", widget: "string" }
+              - { label: "Registry Info", name: "info", widget: "string" }
+          
+          - label: "RSVP"
+            name: "rsvp"
+            widget: "object"
+            fields:
+              - { label: "RSVP Deadline", name: "deadline", widget: "string" }
+          
+          - label: "Gallery"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - label: "Photos"
+                name: "images"
+                widget: "list"
+                field: { label: "Image", name: "image", widget: "image" }
