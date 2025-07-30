@@ -27,7 +27,7 @@
   },
   "story": {
     "howWeMet": {
-      "title": "How We Met",
+      "title": "How We Met TEST",
       "text": "Our love story began [insert how you met]. From that moment, we knew there was something special between us."
     },
     "proposal": {
@@ -38,7 +38,7 @@
   },
   "hero": {
     "title": "Dylan & Eleisa",
-    "subtitle": "We're getting married! Test",
+    "subtitle": "We're getting married! ",
     "date": "March 20th, 2026",
     "location": "St Dominic's Church, Camberwell"
   },
